@@ -16,9 +16,7 @@ body{
 .divIzquierdo{
 
     display: flex;
-
     width: 50%;
-
     align-items: center;
 
     /* background-color:blue ; */
@@ -28,13 +26,9 @@ body{
 .divDerecho{
 
     display: flex;
-
     width: 50%;
-
     justify-content: end;
-
     margin-right: 20px;
-
     align-items: end;
 
     /* background-color: brown; */
@@ -48,5 +42,17 @@ nav>a , .divDerecho > a{
     font-size: 20px;
     text-decoration: none;
     margin-right: 20px;
+
+}
+
+.divFondoImagen {
+
+    background-image: url(../recursos/imagenes/prison_break.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
 
 }
